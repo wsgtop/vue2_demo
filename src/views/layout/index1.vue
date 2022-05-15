@@ -89,15 +89,17 @@ export default {
 
 <style lang="less" scoped>
 .layout {
-  transform: scaleX(1.5);
+  min-width: 1100px;
+  // transform: scaleX(1.5);
   display: flex;
   .left {
-    width: 255px;
+    width: 200px;
+    height: 500px;
     background: gray;
   }
   .right {
-    width: 900px;
-    height: 1200px;
+    width: 600px;
+    height: 680px;
     background: hotpink;
   }
 }
