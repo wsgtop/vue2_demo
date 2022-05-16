@@ -119,6 +119,10 @@ const routes = [
     path: "/layout/index4",
     component: () => import("@/views/layout/index4.vue"),
   },
+  {
+    path: "/layout/index5",
+    component: () => import("@/views/layout/index5.vue"),
+  },
 ];
 
 const router = new VueRouter({

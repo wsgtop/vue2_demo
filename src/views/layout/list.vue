@@ -14,6 +14,9 @@
       <li>
         <router-link to="/layout/index4">rem布局样例</router-link>
       </li>
+      <li>
+        <router-link to="/layout/index5">导航菜单之左右两栏对齐</router-link>
+      </li>
     </ul>
   </div>
 </template>
