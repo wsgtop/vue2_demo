@@ -22,8 +22,8 @@
 
 <script>
 export default {
-  created(){
-    console.log(process.env);
+  created() {
+    console.log("当前环境", process.env);
   },
   methods: {
     click() {

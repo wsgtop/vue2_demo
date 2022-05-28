@@ -13,7 +13,7 @@ import "@/icons";
 // 引入配置文件区分开发开始生产的环境变量
 import "@/config";
 
-//
+// 可获取浏览器缩放情况
 import "@/utils";
 Vue.config.productionTip = false;
 
