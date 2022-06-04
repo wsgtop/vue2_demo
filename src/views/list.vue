@@ -7,15 +7,10 @@
       <li><router-link to="/helloWorld">helloWorld</router-link></li>
       <li><router-link to="/demo">Demo</router-link></li>
       <li><router-link to="/vueDemo">VUE2组件测试</router-link></li>
-      <li>
-        <router-link to="/img/svg">图片 SVG的使用</router-link>
-      </li>
-      <li>
-        <router-link to="/store">vuex的使用</router-link>
-      </li>
-      <li>
-        <router-link to="/layout">布局</router-link>
-      </li>
+      <li><router-link to="/img/svg">图片 SVG的使用</router-link></li>
+      <li><router-link to="/store">vuex的使用</router-link></li>
+      <li><router-link to="/layout">布局</router-link></li>
+      <li><router-link to="/echarts">TODO图表</router-link></li>
     </ul>
   </div>
 </template>
