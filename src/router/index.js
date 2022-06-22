@@ -127,6 +127,34 @@ const routes = [
     path: "/echarts",
     component: () => import("@/views/echarts"),
   },
+  {
+    path: "/previewPDF",
+    component: () => import("@/views/preview"),
+  },
+  {
+    path: "/previewPDF/many",
+    component: () => import("@/views/preview/many.vue"),
+  },
+  {
+    path: "/previewPDF/many-2",
+    component: () => import("@/views/preview/many-2.vue"),
+  },
+  {
+    path: "/previewPDF/many-3",
+    component: () => import("@/views/preview/many-3.vue"),
+  },
+  {
+    path: "/previewPDF/many-4",
+    component: () => import("@/views/preview/many-4.vue"),
+  },
+  {
+    path: "/previewPDF/many-5",
+    component: () => import("@/views/preview/many-5.vue"),
+  },
+  {
+    path: "/previewPDF/many-6",
+    component: () => import("@/views/preview/many-6.vue"),
+  },
 ];
 
 const router = new VueRouter({
